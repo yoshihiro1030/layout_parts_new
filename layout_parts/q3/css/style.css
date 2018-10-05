@@ -26,11 +26,11 @@
   vertical-align: middle;
 }
 
-tr:nth-child(odd) {
+.q3_table tr:nth-child(odd) {
   background: #ecf1f2;
 }
 
-tr:last-child {
+.q3_table tr:last-child {
   border-top: dashed #000 2px;
 }
 

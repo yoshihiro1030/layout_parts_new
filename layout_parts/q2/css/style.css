@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .q2__boxWrapper {
   background: #eff3f4;
   margin: auto;
