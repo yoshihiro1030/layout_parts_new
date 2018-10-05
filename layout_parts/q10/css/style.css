@@ -2,4 +2,31 @@
 
 /* 回答はここに書いてね */
 
+.q10-inner {
+  border: 5px solid #222;
+  border-radius: 30px;
+  font-size: 16px;
+  margin: 0 auto;
+  line-height: 16px;
+  padding: 20px;
+  position: relative;
+  width: 500px;
+}
+.q10-inner::before {
+  content: "";
+  border: 25px solid transparent;
+  border-top: 25px solid #222;
+  position: absolute;
+  bottom: -50px;
+  left: 25px;
+}
+.q10-inner::after {
+  content: "";
+  border: 25px solid transparent;
+  border-top: 25px solid #fff;
+  position: absolute;
+  bottom: -43px;
+  left: 25px;
+}
+
 /* 回答はここに書いてね */

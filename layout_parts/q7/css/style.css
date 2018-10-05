@@ -2,4 +2,86 @@
 
 /* 回答はここに書いてね */
 
+/* q7_1 */
+.q7_1-inner {
+  font-size: 16px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.q7_1-box {
+  box-sizing: border-box;
+  float: left;
+  width: 225px;
+}
+.q7_1-box:nth-child(1) {
+  margin-right: 50px;
+}
+
+/* q7_2 */
+.q7_2-inner {
+  display: table; /* 親要素にtableを指定 */
+  font-size: 16px;
+}
+.q7_2-box {
+  display: table-cell;
+  vertical-align: middle; /* textの上下中央寄せ */
+}
+.q7_2-box:first-child {
+}
+.q7_2-text {
+  box-sizing: border-box;
+  width: 225px;
+  margin: auto;
+}
+
+/* q7_3 */
+.q7_3-inner {
+}
+.q7_3-box {
+  vertical-align: middle; /* 上下中央寄せ */
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  width: 225px;
+  margin: 0;
+}
+
+/* q7_4 */
+.q7_4-inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  /* position: relative; */
+}
+.q7_4-box {
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 225px;
+}
+
+
+/* q7_5 */
+.q7_5-box1 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 300px;
+}
+
+.q7_5-text1 {
+  display: inline-block;
+}
+
+.q7_5-box2 {
+  display: inline-block;
+}
+
+.q7_5-text2 {
+  display: inline-block;
+}
+
+
+
 /* 回答はここに書いてね */

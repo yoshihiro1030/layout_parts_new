@@ -2,4 +2,31 @@
 
 /* 回答はここに書いてね */
 
+.boxWrapper {
+  background: #eff3f4;
+  margin: auto;
+  padding: 20px;
+  width: 940px;
+}
+
+.box1 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.box1:last-child {
+  margin-top: 5px;
+}
+
+.box_img1 {
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.box_img2 {
+  float: right;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
 /* 回答はここに書いてね */

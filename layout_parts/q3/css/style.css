@@ -2,4 +2,32 @@
 
 /* 回答はここに書いてね */
 
+.q3_table {
+  border: solid #dedede 1px; /* 外枠 */
+  text-align: center;
+  width: 100%;
+}
+
+th {
+  background: #24a;
+  border: solid #dedede 1px;
+  color: #fff;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+td {
+  border: solid #dedede 1px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+tr:nth-child(odd) {
+  background: #ecf1f2;
+}
+
+tr:last-child {
+  border-top: dashed #000 2px;
+}
+
 /* 回答はここに書いてね */

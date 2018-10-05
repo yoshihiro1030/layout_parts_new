@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.q1-contentWrapper {
+  background: #eff3f4;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  width: 940px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; /* floatによる回り込みをすべて解除 */
+}
+
+
+.q1-content {
+  background: #3274ae;
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.q1-content:first-child {
+  margin-left: 0;
+}
+
+.q1-content-inner {
+  background: #eaf4ff;
+  border: 10px solid #022336;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  width: 230px;
+}
+
 /* 回答はここに書いてね */

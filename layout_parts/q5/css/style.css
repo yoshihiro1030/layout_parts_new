@@ -2,4 +2,94 @@
 
 /* 回答はここに書いてね */
 
+.q5-itemWrapper {
+  background: #ecf1f2;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.q5-item {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.q5-item:nth-child(1) {
+  background: #9fd6d2;
+  top: 360px;
+  left: 200px;
+  z-index: 3; /* 5 */
+}
+
+.q5-item:nth-child(2) {
+  background: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1; /* 1 */
+}
+
+.q5-item:nth-child(3) {
+  background: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 5;　/* 8 */
+}
+
+.q5-item:nth-child(4) {
+  background: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 4; /* 7 */
+}
+
+.q5-item:nth-child(5) {
+  background: #8b7a5e;
+  top: 280px;
+  left: 280px;
+  z-index: 2; /* 4 */
+}
+
+.q5-item:nth-child(6) {
+  background: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 3; /* 6 */
+}
+
+.q5-item:nth-child(7) {
+  background: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 1; /* 2 */
+}
+
+.q5-item:nth-child(8) {
+  background: #d0ecea;
+  top: 200px;
+  left: 360px;
+  z-index: 1; /* 3 */
+}
+
+.q5-item:nth-child(9) {
+  background: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.q5-itemWrapper::before {
+  content: "";
+  background: #ffefd3;
+  height: 20px;
+  left: 200px;
+  position: absolute;
+  top: 120px;
+  width: 20px;
+  z-index: 6;
+}
 /* 回答はここに書いてね */
