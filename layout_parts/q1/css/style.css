@@ -2,20 +2,20 @@
 
 /* 回答はここに書いてね */
 
-.q1-contentWrapper {
-  background: #eff3f4;
-  margin: auto;
-  padding: 20px;
-  position: relative;
-  width: 940px;
-}
-
 .clearfix::after {
   content: "";
   display: block;
   clear: both; /* floatによる回り込みをすべて解除 */
 }
 
+.q1-contentWrapper {
+  background: #eff3f4;
+  box-sizing: border-box; 
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  width: 940px;
+}
 
 .q1-content {
   background: #3274ae;

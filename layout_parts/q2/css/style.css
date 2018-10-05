@@ -1,30 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-.boxWrapper {
+.q2__boxWrapper {
   background: #eff3f4;
   margin: auto;
   padding: 20px;
   width: 940px;
 }
 
-.box1 {
+.q2__box {
   font-size: 18px;
   line-height: 22px;
 }
 
-.box1:last-child {
+.q2__box:last-child {
   margin-top: 5px;
 }
 
-.box_img1 {
+.q2__boxImgLeft {
   float: left;
   margin-bottom: 10px;
   margin-right: 20px;
 }
 
-.box_img2 {
+.q2__boxImgRight {
   float: right;
   margin-bottom: 10px;
   margin-left: 20px;

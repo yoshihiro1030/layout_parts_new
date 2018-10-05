@@ -1,22 +1,22 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4-container {
+.q4__table {
   padding: 15px;
 }
 
-.q4-itemWrapper {
+.q4__table__items {
+  box-sizing: border-box;
   display: table;
-  position: relative;
   width: 100%;
-  height: 60px;
+  height: 75px;
 }
 
-.q4-itemWrapper:first-child {
+.q4__table__items:first-child {
   margin-bottom: 25px;
 }
 
-.q4-item {
+.q4__tableItem {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -25,30 +25,27 @@
   box-sizing: border-box;
 }
 
-.q4-item1:nth-last-of-type(1) {
+.q4__tableItem__pink {
   background: #fdc8b8;
   width: 100px;
 }
-.q4-item1:nth-last-of-type(2) {
-  background: #e0abd9;
-}
-.q4-item1:nth-last-of-type(3) {
+.q4__tableItem__blue {
   background: #b6d8ed;
   width: 100px;
 }
+.q4__tableItem__purple {
+  background: #e0abd9;
+}
 
-.q4-item2:nth-last-of-type(1) {
-  background: #e5d32e;
-}
-.q4-item2:nth-last-of-type(2) {
-  background: #ec8f9a;
-}
-.q4-item2:nth-last-of-type(3) {
+.q4__tableItem__green {
   background: #8fdcad;
   width: 500px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+}
+.q4__tableItem__yellow {
+  background: #e5d32e;
+}
+.q4__tableItem__red {
+  background: #ec8f9a;
 }
 
 /* 回答はここに書いてね */

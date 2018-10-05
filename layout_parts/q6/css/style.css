@@ -18,7 +18,7 @@
 .q6_1_2-innerText {
   background: #e6f2ff;
   /* display: inline-block; */
-  margin: auto;
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
   width: 90px; 
